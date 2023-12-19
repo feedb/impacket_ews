@@ -38,7 +38,6 @@ class EWSAttack:
         self.download(current_folder,count)
         LOG.info("Download finished!")
     def download(self,id,count):
-        print(count)
         offset = 0 
         i = 0
         while offset <= int(count):
